@@ -1,7 +1,7 @@
 #include <stdio.h>		//for printf()
 #include <stdlib.h>		//for atoi()
 
-//ask 1: The Stairway
+//Task 1: The Stairway
 
 unsigned int result (const char * const argv[])
 {
