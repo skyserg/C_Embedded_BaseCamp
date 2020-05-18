@@ -3,7 +3,7 @@
 
 //Task 1: The Stairway
 
-unsigned int result (const char * const argv[])
+void result (const char * const argv[])
 {
 	unsigned int N,K,j,result;
 	j=0;
@@ -22,8 +22,6 @@ unsigned int result (const char * const argv[])
 	}
 
 	printf("%d\n", result);		//standard output
-
-	return 0;
 }
 
 int main(const int const argc, const char * const argv[])
