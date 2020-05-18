@@ -11,7 +11,7 @@ void result (const char * const argv[])
 	N = atoi(argv[1]);
 	D = atoi(argv[2]);
 
-	for (j=1; N>=j; j++){		//calculation how many stairs will he step in total
+	for (j=1; N>=j; j++){		//cable length calculation
 		result+=(D*j);
 	}
 
